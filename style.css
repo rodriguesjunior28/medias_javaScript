@@ -32,6 +32,16 @@ li {
     padding: 10px;
 }
 
+li input {
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* <-- Aparentemente, algumas margens ainda estão lá, apesar de estar ocultas */
+}
+
 #nota_1,
 #nota_2,
 #nota_3 {
@@ -39,7 +49,6 @@ li {
     background-color: white;
     max-width: 40px;
     text-align: center;
-    ;
 }
 
 button {
