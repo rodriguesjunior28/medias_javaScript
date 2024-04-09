@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin-top: 15%;
+}
+
+ul {
+    margin-bottom: 2%;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+#nota_1,
+#nota_2,
+#nota_3 {
+    border-radius: 2px;
+    background-color: white;
+    max-width: 40px;
+    text-align: center;
+    ;
+}
+
+button {
+    margin-bottom: 2%;
+    background-color: #000000;
+    color: white;
+}
+
+#media {
+    color: red;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 5s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/*@-moz-keyframes blinker {
+    0% {
+      opacity: 1.0;
+    }
+    50% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+}*/
+
+/*@-webkit-keyframes blinker {
+    0% {
+      opacity: 1.0;
+    }
+    50% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+}*/
+
+@keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="Calculadora">
+        <h1>Calculadora de Médias</h1>
+        <div class="inputs">
+            <ul>
+                <li>
+                    <input type="number" id="nota_1" placeholder="n1" />
+                </li>
+                <li>
+                    <input type="number" id="nota_2" placeholder="n2" />
+                </li>
+                <li>
+                    <input type="number" id="nota_3" placeholder="n3" />
+                </li>
+            </ul>
+
+            <button class="btn" onclick="adicionarNota()">Calcular Notas</button>
+            <p id="media">Resultado Aqui</p>
+        </div>
+    </div>
+
+    <script defer src="funcao.js"></script>
+</body>
+
+</html>
